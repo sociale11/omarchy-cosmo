@@ -1,0 +1,83 @@
+# Btop Cosmo theme
+# Based on VS Code Cosmo dark theme
+# Author: Sociale11
+# Description: Dark metallic-blue base with muted gold and warm highlights
+
+# Main background, empty for terminal default; leave empty if you want transparency
+theme[main_bg]="#0F131A"
+
+# Main text color
+theme[main_fg]="#abb2bf"
+
+# Title color for boxes (matches VS Code activity bar highlight)
+theme[title]="#B39C4D"
+
+# Highlight color for keyboard shortcuts or alerts
+theme[hi_fg]="#e06c75"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#2a2f38"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#d7dae0"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#495162"
+
+# Misc colors for processes box including mini CPU graphs, details memory graph, and details status text
+theme[proc_misc]="#98c379"
+
+# CPU box outline color
+theme[cpu_box]="#181A1F"
+
+# Memory/disks box outline color
+theme[mem_box]="#181A1F"
+
+# Net up/down box outline color
+theme[net_box]="#181A1F"
+
+# Processes box outline color
+theme[proc_box]="#181A1F"
+
+# Box divider line and small boxes line color
+theme[div_line]="#3B4048"
+
+# Temperature graph colors (purple-to-red gradient)
+theme[temp_start]="#c678dd"
+theme[temp_mid]="#e06c75"
+theme[temp_end]="#f44747"
+
+# CPU graph colors (green-to-gold gradient)
+theme[cpu_start]="#98c379"
+theme[cpu_mid]="#e5c07b"
+theme[cpu_end]="#B39C4D"
+
+# Mem/Disk free meter (cool green tone)
+theme[free_start]="#161b25"
+theme[free_mid]="#98c379"
+theme[free_end]="#a8cf8a"
+
+# Mem/Disk cached meter (cyan transition)
+theme[cached_start]="#161b25"
+theme[cached_mid]="#56b6c2"
+theme[cached_end]="#71c7d1"
+
+# Mem/Disk available meter (gold transition)
+theme[available_start]="#161b25"
+theme[available_mid]="#e5c07b"
+theme[available_end]="#efd199"
+
+# Mem/Disk used meter (red transition)
+theme[used_start]="#161b25"
+theme[used_mid]="#e06c75"
+theme[used_end]="#e88b91"
+
+# Download graph colors (blue gradient)
+theme[download_start]="#0F131A"
+theme[download_mid]="#61afef"
+theme[download_end]="#8dc4f3"
+
+# Upload graph colors (magenta gradient)
+theme[upload_start]="#0F131A"
+theme[upload_mid]="#c678dd"
+theme[upload_end]="#d89ee6"
